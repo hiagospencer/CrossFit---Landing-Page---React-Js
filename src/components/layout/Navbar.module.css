@@ -1,0 +1,108 @@
+header {
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    background-color: rgba(24, 41, 61, 1);
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+}
+
+.img img {
+    max-width: 100%;
+    width: 70px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+
+.menuHeader nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.menuHeader li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.menuHeader li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff3131;
+    transition: width 0.4s;
+}
+
+.menuHeader li a:hover::after{
+    width: 100%;
+}
+
+/* .menuMobile{ 
+    display: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.menuMobile svg{
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.itensMenu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    left: 0;
+    background-color: #1b344d;
+    text-align: center;
+    transition: all 0.7s ease-in;
+}
+.itensMenu li{
+    margin-top: 4px;
+    padding: 6px 0;
+}
+
+.itensMenu a{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+
+.itensMenu a:hover{
+    color: #e05555;
+} */
+
+
+@media screen and (max-width: 768px){
+    .menuHeader{
+        display: none;
+    }
+}

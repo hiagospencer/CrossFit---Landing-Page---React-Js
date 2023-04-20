@@ -1,14 +1,25 @@
-import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, animateScroll as scroll } from "react-scroll";
-import style from './MenuMobile.module.css';
+import {useState} from 'react'
 
 const MenuMobile = () => {
 
+    const [active, setActive] = useState(false)
+
+    const toggle = () => {
+        setActive(!active)
+        console.log(active)
+    }
+
+    const menuClose = () => {
+       setActive(false)
+    }
+
+
     return (
-        <div id='menuMobile' className={style.menuMobile} >
+        <div id='menuMobile' className="menuMobile" onClick={toggle}>
             < FaBars />
-            <div className={style.itensMenu}>
+            <div className={active ? "itensMenu" : "hidden"}>
                 <nav>
                     <ul>
                         <li><Link
@@ -16,32 +27,32 @@ const MenuMobile = () => {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}>Home</Link></li>
+                            duration={500}><span onClick={menuClose}>Home</span></Link></li>
 
                         <li><Link to='quemsomos'
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={600}>Quem Somos</Link></li>
+                            duration={600}><span onClick={menuClose}>Quem Somos</span></Link></li>
 
                         <li><Link to='planos'
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}>Planos</Link></li>
+                            duration={500}><span onClick={menuClose}>Planos</span></Link></li>
 
                         <li><Link to='galeria'
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}
-                        >Galeria</Link></li>
+                        ><span onClick={menuClose}>Galeria</span></Link></li>
 
                         <li><Link to='contato'
                             spy={true}
                             smooth={true}
                             offset={-200}
-                            duration={600}>Contato</Link></li>
+                            duration={600}><span onClick={menuClose}>Contato</span></Link></li>
                     </ul>
                 </nav>
             </div>

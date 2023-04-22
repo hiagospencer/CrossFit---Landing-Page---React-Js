@@ -2,7 +2,8 @@ header {
     position: fixed;
     z-index: 999999;
     width: 100%;
-    background-color: rgba(24, 41, 61, 1);
+    background: rgba(17, 18, 17, 0.95);
+    background: linear-gradient(34deg, rgba(31, 71, 151, 0.95) 0%, rgba(17,18,17,0.95) 95%);
 }
 
 .container {
@@ -61,47 +62,15 @@ header {
     width: 100%;
 }
 
-/* .menuMobile{ 
-    display: none;
-    margin-top: 30px;
-    margin-right: 10px;
+@media screen and (max-width: 890px){
+    .menuHeader{
+        flex: 1;
+    }
+
+
 }
 
-.menuMobile svg{
-    color: white;
-    font-size: 28px;
-    cursor: pointer;
-}
-
-.itensMenu{
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 90%;
-    left: 0;
-    background-color: #1b344d;
-    text-align: center;
-    transition: all 0.7s ease-in;
-}
-.itensMenu li{
-    margin-top: 4px;
-    padding: 6px 0;
-}
-
-.itensMenu a{
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.4s ease-in;
-}
-
-.itensMenu a:hover{
-    color: #e05555;
-} */
-
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 790px){
     .menuHeader{
         display: none;
     }

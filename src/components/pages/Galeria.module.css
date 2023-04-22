@@ -8,16 +8,15 @@
 body,
 html {
     height: 100%;
-
 }
 
 .galeria {
     width: 100%;
-    background-color: #474747;
+    background: rgb(154,147,147);
+    background: linear-gradient(0deg, rgb(112, 107, 107) 0%, rgb(173, 173, 180) 100%);
 }
 
 .container {
-
     padding: 0 2%;
     margin: 0 auto;
 }
@@ -29,7 +28,21 @@ html {
 .slider>h1 {
     text-align: center;
     padding-top: 40px;
-    color: white;
+    color: #1f1f1f;
+    font-weight: 900;
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    max-width: 800px;
+    padding: 20px 0;
+    line-height: 25px;
+    margin: 0 auto;
+    color: #161616;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .img {
@@ -39,11 +52,10 @@ html {
 .img img {
     display: block;
     max-width: 100%;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     border-radius: 10px;
     height: 500px;
-    
 }
 
 @media screen and (max-width: 768px){

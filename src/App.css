@@ -26,19 +26,22 @@ body,html{
 
  .itensMenu{
     padding: 10px 0;
-    display: block;
+    opacity: 1;
     position: absolute;
     width: 100%;
-    top: 90%;
+    height: auto;
+    top: 100%;
     left: 0;
-    background-color: #1b344d;
+    backdrop-filter: blur(3px);
+    background: rgba(17, 18, 17, 0.95);
+    background: linear-gradient(34deg, rgba(60, 111, 213, 0.95) 0%, rgba(17,18,17,0.95) 95%);
     text-align: center;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 
 .itensMenu li{
     margin-top: 4px;
-    padding: 6px 0;
+    padding: 10px 0;
 }
 
 .itensMenu a{
@@ -54,10 +57,14 @@ body,html{
 }
 
 .hidden{
-    display: none;
+    position: absolute;
+    right: -100px;
+    opacity: 0;
+    transition: 0.5s ease;
+    transform: scale(0.7);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 790px){
 
     .menuMobile{
         display: block;

@@ -57,6 +57,14 @@ html {
     height: 60px;
 }
 
+.whatsapp img:hover {
+    transform: scale(1.2);
+    border-radius: 48%;
+    box-shadow: 2px 8px 76px 6px rgba(68,242,22,0.91);
+    -webkit-box-shadow: 2px 8px 76px 6px rgba(68,242,22,0.91);
+    -moz-box-shadow: 2px 8px 76px 6px rgba(68,242,22,0.91);
+}
+
 @media screen and (max-width: 768px) {
 
     .content {

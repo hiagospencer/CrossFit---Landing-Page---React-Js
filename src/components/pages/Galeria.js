@@ -9,13 +9,15 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-fade';
 
-import foto1 from '../../img/crossfit1.webp'
+import foto1 from '../../img/crossfit1.jpeg'
 import foto4 from '../../img/crossfit4.webp'
 import foto5 from '../../img/crossfit5.jpeg'
 import foto6 from '../../img/crossfit6.jpeg'
 import foto7 from '../../img/crossfit7.jpeg'
 import foto8 from '../../img/crossfit8.jpeg'
 import foto9 from '../../img/crossfit9.jpeg'
+import foto10 from '../../img/crossfit10.jpeg'
+import foto11 from '../../img/crossfit11.jpeg'
 
 const Galeria = ({id}) => {
 
@@ -29,8 +31,7 @@ const Galeria = ({id}) => {
               from="left"
               positionOffset={400}
               triggerOffset={200}
-              delayInMilliseconds={600}
-              durationInMilliseconds={2000}
+              delayInMilliseconds={400}
               >
               <p className={style.content}>
                 Que tal conhecer por dentro tudo que oferecemos na RLCROSS TRANING,
@@ -58,6 +59,8 @@ const Galeria = ({id}) => {
               <SwiperSlide><img src={foto7} alt="" /></SwiperSlide>
               <SwiperSlide><img src={foto8} alt="" /></SwiperSlide>
               <SwiperSlide><img src={foto9} alt="" /></SwiperSlide>
+              <SwiperSlide><img src={foto10} alt="" /></SwiperSlide>
+              <SwiperSlide><img src={foto11} alt="" /></SwiperSlide>
             </Swiper>
           </div>
         </div>

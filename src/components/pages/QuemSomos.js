@@ -15,7 +15,7 @@ const QuemSomos = ({ id }) => {
                 <div className={style.img}>
                     < FadeIn
                     from="left"
-                    positionOffset={200}
+                    positionOffset={400}
                     triggerOffset={300}
                     delayInMilliseconds={600}
                     >
@@ -30,7 +30,7 @@ const QuemSomos = ({ id }) => {
                         triggerOffset={0}
                         delayInMilliseconds={600}
                         >
-                            <h1> Rodrigo Leonardo de Góis Souza</h1>
+                            <h1 className="texto"> Rodrigo Leonardo de Góis Souza</h1>
 
                             <p>
                                 Graduado em Educação Física licenciatura, bacharelado, Medicina chinesa,

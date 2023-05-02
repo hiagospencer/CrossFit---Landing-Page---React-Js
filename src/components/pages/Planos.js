@@ -30,7 +30,7 @@ const Planos = ({id}) => {
 
                         <div className={style.infoPlanos}>
                             <h2>RL 3 CHECK-INS</h2><br />
-                            <spam>R$ 150.00</spam>
+                            <spam>R$ 130.00</spam>
                             <p>
                                 Treino 3x na semana, adaptado para quem é iniciante ou tem excesso de peso e não se sente apto a praticar todos os movimentos do Crossfit.
                                 *Consultar unidades e disponibilidade de horários.

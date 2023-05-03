@@ -1,12 +1,14 @@
-import style from './Home.module.css'
-import { FadeIn } from 'react-slide-fade-in'
+import style from './Home.module.css';
 
-import iconWhats from '../../img/whatsapp.webp'
+import { FadeIn } from 'react-slide-fade-in';
+
+import iconWhats from '../../img/whatsapp.webp';
 
 
 const Home = () => {
     return (
         <div className={style.content}>
+
              <div className={style.container}>
                 <div className={style.texto}>
 

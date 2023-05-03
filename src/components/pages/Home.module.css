@@ -19,10 +19,13 @@ html {
 
 .content {
     position: relative;
-    background-image: url('../../img/rlcross-video.gif');
-    background-position: center left;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background: rgb(31,34,41);
+    background: linear-gradient(90deg, rgba(31,34,41,1) 34%, rgb(22, 20, 142) 100%);
+}
+
+.content img{
     width: 100%;
     max-width: 100%;
     height: 800px;
@@ -66,9 +69,8 @@ html {
 
 @media screen and (max-width: 768px) {
 
-    .content {
-        background-image: url('../../img/rl-video.gif');
-        background-position: center;
+    .content img{
+        height: 500px;
     }
 
     .texto {

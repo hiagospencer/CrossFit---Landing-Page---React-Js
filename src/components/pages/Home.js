@@ -3,11 +3,13 @@ import style from './Home.module.css';
 import { FadeIn } from 'react-slide-fade-in';
 
 import iconWhats from '../../img/whatsapp.webp';
+import imgGif from '../../img/rlcross-video.gif';
 
 
 const Home = () => {
     return (
         <div className={style.content}>
+                <img src={imgGif} alt="gif do video" />
 
              <div className={style.container}>
                 <div className={style.texto}>

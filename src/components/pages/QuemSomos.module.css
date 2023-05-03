@@ -100,11 +100,11 @@ html {
 
     .img img{
         width: 90%;
-        height: 400px;
+        height: 350px;
     }
 
     .info{
-        width: 80%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
 

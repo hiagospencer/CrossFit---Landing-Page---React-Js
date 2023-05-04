@@ -2,8 +2,8 @@ header {
     position: fixed;
     z-index: 999999;
     width: 100%;
-    background: rgba(17, 18, 17, 0.95);
-    background: linear-gradient(34deg, rgba(31, 71, 151, 0.95) 0%, rgba(17,18,17,0.95) 95%);
+    background: rgb(25,26,27);
+    background: linear-gradient(38deg, rgb(0, 0, 0) 20%, rgba(69,83,208,1) 100%);
 }
 
 .container {

@@ -73,6 +73,19 @@ const QuemSomos = ({ id }) => {
                     </FadeIn>
                 </div>
             </div>
+            <div className={style.youtube}>
+                <h1>Conheça nosso centro de treinamento</h1>
+                <h1>Aqui a gente faz acontecer!</h1>
+
+                    < FadeIn
+                        from="bottom"
+                        positionOffset={400}
+                        triggerOffset={200}
+                        delayInMilliseconds={200}>
+                        <iframe src="https://www.youtube.com/embed/M9w5GkGtV5U" title="VOCÊ CONHECE O CROSSFIT? BATE PAPO COM RODRIGO LEONARDO DO BOXRLCROSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </FadeIn>
+
+            </div>
         </div>
     );
 };

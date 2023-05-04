@@ -76,6 +76,28 @@ html {
     color: #a9a9a9;
 }
 
+.youtube{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.youtube h1{
+    text-align: center;
+    color: #cecece;
+    font-family: 'Poppins', sans-serif;
+}
+
+.youtube iframe{
+    margin-top: 30px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 900px;
+    height: 500px;
+}
 
 @media screen and (max-width: 768px) {
     .quemsomos {
@@ -108,5 +130,15 @@ html {
         text-align: center;
         margin: 0 auto;
 
+    }
+
+    .youtube h1{
+        font-size: 25px;
+    }
+
+    .youtube iframe{
+        max-width: 100%;
+        width: 400px;
+        height: 300px;
     }
 }

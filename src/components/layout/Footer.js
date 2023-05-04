@@ -14,7 +14,7 @@ const Footer = ({id}) => {
 
                     <div className={style.item}>
                         <spam>< FaEnvelope /></spam>
-                        <h2>ENVIE UM EMAIL</h2>           
+                        <h2>ENVIE UM EMAIL</h2>
                         <p>rlcrosstraining@gmail.com</p>
                     </div>
 
@@ -22,7 +22,7 @@ const Footer = ({id}) => {
                         <spam>< FaMapMarkerAlt /></spam>
                         <h2>LOCALIZAÇÃO</h2>
                         <p>Rua: Mestre Silvério Barreto</p>
-                        <p> Número: 590</p>
+                        <p> Número: 243</p>
                         <p> Bairro: Centro</p>
                         <p> Cidade: Areia Branca/RN</p>
                         <p> CEP: 59655-000</p>

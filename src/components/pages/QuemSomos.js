@@ -74,6 +74,8 @@ const QuemSomos = ({ id }) => {
                 </div>
             </div>
 
+
+
             <div className={style.crossfit}>
                 <h1>O que é Crossfit?</h1>
                 <p>
@@ -90,6 +92,7 @@ const QuemSomos = ({ id }) => {
                     W.O.D - workout of the day - TESTE DO DIA. Você vai testar os seus limites e se desafiar para terminar mais rápido ou fazer o máximo de repetições no tempo estabelecido.
                 </p>
             </div>
+
 
             <div className={style.youtube}>
                 <h1>Conheça nosso centro de treinamento</h1>

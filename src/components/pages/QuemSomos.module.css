@@ -78,6 +78,10 @@ html {
 }
 
 .crossfit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin:0 auto;
     max-width: 900px;
 }
@@ -96,6 +100,10 @@ html {
 }
 
 .aulas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin:0 auto;
     max-width: 900px;
 }

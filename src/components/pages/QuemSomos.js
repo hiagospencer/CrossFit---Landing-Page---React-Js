@@ -73,10 +73,27 @@ const QuemSomos = ({ id }) => {
                     </FadeIn>
                 </div>
             </div>
+
+            <div className={style.crossfit}>
+                <h1>O que é Crossfit?</h1>
+                <p>
+                É uma preparação física focada em melhorar suas capacidades de FORÇA, POTÊNCIA e RESISTÊNCIA. Crossfit pode ser usado para atletas profissionais e para pessoas, como VOCÊ, que buscam mais SAÚDE, VITALIDADE e DISPOSIÇÃO no seu dia a dia. Todos os dias temos um treino diferente e especial te esperando, adaptado para qualquer realidade.
+                </p>
+            </div>
+
+            <div className={style.aulas}>
+                <h1>Como funcionam as aulas?</h1>
+                <p>
+                    Duração de 1 hora dividida em 3 partes:
+                    Warm up (Aquecimento) - Estamos preparando nosso corpo com exercícios de mobilidade e fortalecimento do CORE.
+                    TÉCNICA - aprendizado e aprimoramento dos nossos movimentos.
+                    W.O.D - workout of the day - TESTE DO DIA. Você vai testar os seus limites e se desafiar para terminar mais rápido ou fazer o máximo de repetições no tempo estabelecido.
+                </p>
+            </div>
+
             <div className={style.youtube}>
                 <h1>Conheça nosso centro de treinamento</h1>
                 <h1>Aqui a gente faz acontecer!</h1>
-
                     < FadeIn
                         from="bottom"
                         positionOffset={400}
@@ -84,7 +101,6 @@ const QuemSomos = ({ id }) => {
                         delayInMilliseconds={200}>
                         <iframe src="https://www.youtube.com/embed/M9w5GkGtV5U" title="VOCÊ CONHECE O CROSSFIT? BATE PAPO COM RODRIGO LEONARDO DO BOXRLCROSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </FadeIn>
-
             </div>
         </div>
     );

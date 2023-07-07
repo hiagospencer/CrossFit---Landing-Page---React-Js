@@ -39,6 +39,7 @@ html {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .img {
@@ -74,6 +75,42 @@ html {
     line-height: 30px;
     font-size: 18px;
     color: #a9a9a9;
+}
+
+.crossfit {
+    margin:0 auto;
+    max-width: 900px;
+}
+
+.crossfit h1{
+    font-family: 'Roboto', sans-serif;
+    color: #cecece;
+    margin-bottom: 10px;
+}
+
+.crossfit p{
+    font-family: 'Roboto', sans-serif;
+    color: #a9a9a9;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.aulas{
+    margin:0 auto;
+    max-width: 900px;
+}
+
+.aulas h1{
+    font-family: 'Roboto', sans-serif;
+    color: #cecece;
+    margin-bottom: 10px;
+}
+
+.aulas p{
+    font-family: 'Roboto', sans-serif;
+    color: #a9a9a9;
+    line-height: 25px;
+    margin-bottom: 50px;
 }
 
 .youtube{
@@ -130,6 +167,11 @@ html {
         text-align: center;
         margin: 0 auto;
 
+    }
+
+    .aulas,.crossfit {
+        width: 100%;
+        padding: 0 3%;
     }
 
     .youtube h1{
